@@ -37,14 +37,12 @@ const useStore = create((set) => ({
 export default function Counter() {
   const {
     ana,
-    haat,
     lhaat,
     bhaat,
     setLhaat,
     setBhaat,
     calculateHaat,
     calculateAna,
-    setHaat,
     setAna,
   } = useStore()
 
